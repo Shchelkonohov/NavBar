@@ -45,7 +45,7 @@
   position: relative;
 }
 
-.dropdown_content_first {
+.dropdown_c_f {
   position: absolute;
   margin-top: 224px;
   z-index: 1;
@@ -64,7 +64,7 @@
   width: 80%;
 }
 
-.dropdown_content_second {
+.dropdown_c_s {
   display: none;
   position: absolute;
   z-index: 2;
@@ -72,7 +72,7 @@
   background-color: rgb(247, 190, 229);
 }
 
-.dropdown_content_second_row {
+.dropdown_c_s_r {
   display: none;
   position: absolute;
   z-index: 2;
@@ -85,15 +85,15 @@
   position: relative;
 }
 
-.dropdown_second_row:hover .dropdown_content_second_row {
+.dropdown_s_r:hover .dropdown_c_s_r {
   display: block;
 }
 
-.dropdown:hover .dropdown_content_first {
+.dropdown:hover .dropdown_c_f {
   display: block;
 }
 
-.dropdown_row:hover .dropdown_content_second {
+.dropdown_row:hover .dropdown_c_s {
   display: block;
 }
 
